@@ -1,0 +1,13 @@
+Mutable Data Structures in Python(value can be changed)
+    List
+    Dictionary
+    Set
+    bytearray
+Immutable Data Structures in Python(value can not be changed)
+    Tuple
+    String
+    Integer
+    Float
+    Boolean
+    frozenset
+    bytes
