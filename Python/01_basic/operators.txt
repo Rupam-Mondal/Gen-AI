@@ -1,0 +1,5 @@
+As we are storing data in variable databases etc 
+we have to somehow manupulate those data
+that's why operators is needed.
+
+check operators.py file for detail explanation
