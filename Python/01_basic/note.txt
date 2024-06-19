@@ -1,0 +1,13 @@
+True/False will be taken as 1/0 it will give error
+keyword --> They are some predefined words that hold speacial
+            meaning and have specific purpose
+            ex -->  False	await	else	import	pass
+                    None	break	except	in	raise
+                    True	class	finally	is	return
+                    and	continue	for	lambda	try
+                    as	def	from	nonlocal	while
+                    assert	del	global	not	with
+                    async	elif	if	or	yield
+
+** Variable is not keyword , Also keyword can not be used
+as Variable
