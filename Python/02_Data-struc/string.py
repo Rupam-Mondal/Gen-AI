@@ -45,3 +45,23 @@ if "@" in email:
     print("valid email")
 else:
     print("Invalid email")
+
+
+reg_username = ["pw", "PW", "pW"]
+new_user = "PW1"
+if new_user in reg_username:
+    print("already in use")
+else:
+    print("username is available")
+
+row = "Apple      "
+print(row.strip())
+
+data = "Ajay, data science, teacher"
+teacher_info = data.split(',')
+print(teacher_info)
+
+#The method isalnum() checks if all the characters in the 
+# string are alphanumeric (i.e., letters and numbers)
+a = "123abc"
+print(a.isalnum())
