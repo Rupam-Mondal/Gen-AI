@@ -2,7 +2,7 @@
 #Indexing is not valid
 
 s = {}
-type(s)
+print(type(s))
 
 s = {1, 2, 1, 2, 2, "Ajay", "Ajay", "Ajay", "ajay", "ajay"}
 print(s)
