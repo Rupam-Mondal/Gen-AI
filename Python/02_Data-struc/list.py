@@ -37,3 +37,21 @@ print("Milk" in grocery_list)
 #shallow copy >> value will change with change in other list
 
 a = grocery_list #shallow copy both pointing same memory location
+
+b = grocery_list.copy() #deep copy
+
+book_list = ["Data Str", "Algorithm", "web", "Algorithm"]
+print(sorted(book_list))
+print(book_list)
+
+
+book_list.sort() # sorts the whole booklist
+print(book_list)
+
+book_list = ["Data Str", "Algorithm", "web", "Algorithm"]
+book_list.clear() #it deletes the element of list, but 
+#variable list will not be deleted>>cleared
+
+prices = [10, 20, 30, 40, 50]
+double_prices = [price * 2 for price in prices]
+print(double_prices)
