@@ -58,3 +58,42 @@ print(sum1(4 , 5 , 3))
 def sum1(b=5, c=0, a=0):
     return a+b+c
 print(sum1(a=3))
+
+
+def only_numeric(a):
+    n = []
+    for i in a:
+        if type(i) == int or type(i) == float:
+            n.append(i)
+    return n
+
+only_numeric([1, 2.2, "Ajay", True, 3+7j, "pwskills", 5, 6])
+
+#A function which can take any no of values and return the sum
+
+def sum1(*args):
+    s = 0
+    for i in args:
+        s = s+i
+    return s
+
+print(sum1(1, 2, 100))
+
+
+def return_list(*args):
+    l = []
+    for i in args:
+        if type(i) == list:
+            l.append(i)
+    return l
+
+print(return_list(1, 2, 2.3, 5+7j, {2,3},[4, 5, [6, 7]], [1, 2, 3, 4], (2,3), True, "Ajay"))
+
+def marks_in_subject(**kwargs):
+    def total_marks(marks_list):
+        return sum(marks_list)
+    marks_list = []
+    for sub, marks in kwargs.items():
+        marks_list.append(marks)
+        
+    return total_marks(marks_list)
