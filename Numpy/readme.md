@@ -19,3 +19,4 @@
 - `np.meshgrid`
 - `np.mgrid`
 - `np.ogrid`
+- `np.random.random_sample(5) --> Gives an array of random number`
